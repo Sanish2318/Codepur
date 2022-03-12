@@ -11,8 +11,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Material(
-        child: Container(
-          child: Text("Hello"),
+        child: Center(
+          child: Container(
+            child: Text("Hello"),
+          ),
         ),
       ),
     );
